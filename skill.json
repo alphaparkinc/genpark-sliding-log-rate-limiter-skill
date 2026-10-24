@@ -1,0 +1,10 @@
+{
+  "name": "genpark-sliding-log-rate-limiter-skill",
+  "version": "1.0.1",
+  "description": "Microsecond-precision sliding window log rate limiter preventing boundary burst exploitation across LLM calls",
+  "tools": [
+    "allow_request",
+    "get_rate_status",
+    "reset_rate_log"
+  ]
+}
