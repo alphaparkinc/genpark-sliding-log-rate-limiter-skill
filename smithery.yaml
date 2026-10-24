@@ -1,0 +1,7 @@
+name: genpark-sliding-log-rate-limiter-skill
+description: Microsecond-precision sliding window log rate limiter preventing boundary burst exploitation across LLM calls
+version: 1.0.1
+entrypoint: mcp_server.py
+command: python
+args:
+  - mcp_server.py
